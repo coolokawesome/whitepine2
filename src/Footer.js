@@ -7,19 +7,34 @@ function Footer() {
   return (
     <div className='footer-container'>
         <div className='container'>
-            <div className='row'>
-                <div className='col-12 col-lg-4'>
-                    <img src={WordMark} className='img img-fluid'></img>
-                    <p className='text-light'>Discover White Pine Tattoo, the 5-star rated tattoo shop in Midland, ON. We take pride in creating unforgettable, one-of-a-kind pieces for our clients. Book your consultation today and let us make your tattoo dreams a reality.</p>
+            <div className='row '>
+                <div className='col-12 col-lg-4 pb-3'>
+                    <img src={WordMark} className='img img-fluid '></img>
+                    <div className='text-center'>
+                    <Link className='link-light mx-2 text-decoration-none' to='/galleries'>Galleries </Link>
+                    <Link className='link-light text-decoration-none mx-2' to='/artists'>Artists </Link>
+                    <Link className='link-light mx-2 text-decoration-none' to='/contact'>Contact</Link>
+                    <Link className='link-light mx-2 text-decoration-none' to='/faq'>FAQ</Link>
+                    <Link className='link-light mx-2 text-decoration-none' to='/ourstory'>Our Story</Link>
+                    </div>
                 </div>
-                <div className='col-12 col-lg-4'>
-                    <h5 className='text-light mt-3'>Links</h5>
-                    <Link className='link-light mx-2' to='/galleries'>Galleries</Link>
-                <Link className='link-light  mx-2' to='/artists'>Artists</Link>
-                <Link className='link-light mx-2' to='/contact'>Contact</Link>
-                <Link className='link-light mx-2' to='/faq'>FAQ</Link>
-                <Link className='link-light mx-2' to='/ourstory'>Our Story</Link>
+                <div className='col-12 col-lg-3 offset-0 offset-lg-1 py-3'>
+                    <div className='row'>
+                        <div className='col-12 text-light mb-3'>
+                        <i class="fa-xl pt-3 pb-3 me-3 footer-icon fa-sharp fa-solid fa-location-dot"></i>309 King St., Midland, ON
+                        </div>
+                        <div className='col-12 text-light'>
+                        <i class="fa-xl pt-3 pb-3 me-3 footer-icon fa-solid fa-envelope"></i>whitepinetattoos@gmail.com
+                        </div>
+                    </div>
+                </div>  
+                <div className='col-12 col-lg-4 py-3'>
+                <p className='text-light'>Discover White Pine Tattoo, the 5-star rated tattoo shop in Midland, ON. We take pride in creating unforgettable, one-of-a-kind pieces for our clients. Book your consultation today and let us make your tattoo dreams a reality.</p>    
                 </div>
+            </div>
+            <div className='my-2'>
+                <p className='text-light text-center my-1'>© 2023 White Pine Tattoo, Inc</p>
+                <p className='text-light text-center'> All Rights Reserved</p>
             </div>
         </div>
     </div>
