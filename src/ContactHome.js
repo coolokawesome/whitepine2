@@ -8,8 +8,8 @@ function ContactHome() {
                 <div className=''>
                     <h3 className='display-4 text-light text-center my-4'>Want to schedule an appointment?</h3>
                 </div>
-                <div className='col-12 col-lg-8 offset-0 offset-lg-2 contact-outer-frame mb-5'>
-                    <div className='contact-inner-frame bg-dark p-4'>
+                <div className='col-12 col-lg-8 offset-0 offset-lg-2 contact-outer-frame mb-5 '>
+                    <div className='contact-inner-frame bg-dark p-4 rounded-3  rounded-lg-0'>
                     <form action="https://formspree.io/f/mvonqrwa" method="POST">
                         <label for='name' className='form-label text-light'>Name:</label>
                         <input class="form-control" type="name" name="name" required />

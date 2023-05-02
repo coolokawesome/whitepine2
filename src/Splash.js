@@ -3,7 +3,7 @@ import Logo from './imgs/logo1.png'
 import Background from './imgs/backgroundImg.avif'
 function Splash() {
   return (
-      <div className='container landing-container d-flex align-content-around flex-wrap'>
+      <div id='splash' className='container landing-container d-flex align-content-around flex-wrap'>
         <img src={Background} className='background'></img>
             <div className='row d-flex justify-content-center'>
               <img src={Logo} className='col-8 col-xl-8'></img>

@@ -4,7 +4,9 @@ import MeetTheArtists from './MeetTheArtists'
 import ContactHome from './ContactHome'
 import FAQHome from './FAQHome'
 import Location from './Location'
+import Footer
 
+from './Footer'
 function Home() {
   return (
     <>
@@ -13,6 +15,7 @@ function Home() {
     <ContactHome />
     <FAQHome />
     <Location />
+    <Footer />
     </>
   )
 }

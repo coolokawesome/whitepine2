@@ -16,12 +16,14 @@ function MeetTheArtists() {
                 <div className='col-12 col-lg-6 d-flex align-items-center'>
                     <div className=''>
                     <div>
-                    <h3 class="text-light text-center text-lg-start display-5 ">Anna</h3>
+                    <h3 class="text-light text-center text-lg-start display-5 px-5 px-lg-0 pe-lg-5 ">Anna</h3>
+                    <div className='text-box p-1'>
                     <p className='text py-2'>
                         Anna has been tattooing since she was young, starting in 2007. She holds honours certified in medical aesthetics and understands skin inside out. Her favourite things to do are illustrative realism animals, florals and portraits and ornamental designs in large scale. 
                     </p>
                     <p className='text py-2'> 
                         Her hobbies and past times include raising her twins, drawing, campfires, fishing, camping and boating. Anna is passionate about creating art that celebrates nature and the world we live in, and this passion is evident in all of her work.</p>
+                    </div>
                     <div className='socials-container d-flex justify-content-center justify-content-lg-start'>
                         <a  className='me-2 social-link'><i class="fa-xl fa-brands fa-instagram"></i></a>
                         <a className='mx-2 a-link'><b>SEE PORTFOLIO {'>'}</b></a>
@@ -41,10 +43,10 @@ function MeetTheArtists() {
                     <div>
                     <h3 class="text-light text-center text-lg-end display-5 ">Jeff</h3>
                     <p className='text text-center text-lg-end py-2'>
-                    Jeff is a skilled illustrator known for his fine-line black ink drawings. His larger pieces could take up to two weeks to complete due to the meticulous attention to detail that he puts into each piece. In recent years, Jeff has been exploring different mediums like gouache, acrylics, and oil paints. He has also ventured into large scale abstract mixed media, demonstrating his versatility as an artist.
+                    Jeff is a skilled illustrator known for his fine-line black ink drawings. His larger pieces could take up to two weeks to complete due to the meticulous attention to detail that he puts into each piece. In recent years, Jeff has been exploring different mediums like gouache, acrylics, and oil paints.
                     </p>
                     <p className='text text-center text-lg-end py-2'> 
-                    Aside from his passion for art, Jeff also has a keen interest in tattooing. He has been practicing for just over a year and was trained under Anna, a seasoned tattoo artist. Jeff specializes in illustrative blackwork and creates smooth, soft-shaded black and grey medium-sized tattoos. When he is not creating art, Jeff enjoys spending time with his family, attending concerts, playing video games, and watching anime.</p>
+                    Aside from his passion for art, Jeff also has a keen interest in tattooing. He has been practicing for just over a year, specializing in illustrative blackwork and creates smooth, soft-shaded black and grey medium-sized tattoos. When he is not creating art, Jeff enjoys spending time with his family, attending concerts, playing video games, and watching anime.</p>
                         <div className='socials-container d-flex justify-content-center justify-content-lg-end'>
                         <a  className='me-2 social-link'><i class="fa-xl fa-brands fa-instagram"></i></a>
                         <a className='mx-2 a-link'><b>SEE PORTFOLIO {'>'}</b></a>

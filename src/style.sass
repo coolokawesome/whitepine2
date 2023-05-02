@@ -1,5 +1,6 @@
 $green: #569342
 $greenActive: #1e5413
+$bg: #212529
 @font-face 
     font-family: DM
     src: url("./fonts/DMSerifDisplay-Regular.ttf")
@@ -13,7 +14,8 @@ $greenActive: #1e5413
 @font-face 
     font-family: Nanum
     src: url('./fonts/DMSerifDisplay-Regular.ttf')
-
+html
+    scroll-behavior: smooth
 body 
     background-color: rgb(33, 37, 41)
     transition-duration: 0.2s
@@ -146,8 +148,39 @@ button
 .meet-the-artists-img
     box-shadow: 2px 2px 6px #000000
 .contact-outer-frame
-    border: 3px solid rgb(164, 164, 164)
+    border: 3px solid rgba(255, 255, 255, 0)
     background-color: #66666600
     padding: 0px
 .contact-inner-frame
-    box-shadow: 3px 3px 9px #2d2d2d93
+    box-shadow: 3px 3px 9px #3a3a3a93
+.background-location-img
+    position: absolute
+    width: 100vw
+    min-height: 60vh
+    max-height: 60vh
+    z-index: -1
+    object-fit: cover
+    filter: saturate(20%) 
+    overflow: hidden !important
+.inner-location-container
+    position: relative
+    margin: auto
+    min-height: 60vh
+.location-container
+    min-height: 60vh
+    z-index: 10
+    overflow-y: hidden
+.hours-container
+    background-color: $bg !important
+    padding: 40px
+    font-size: larger
+    td
+    background-color: $bg
+    color: white
+    box-shadow: 3px 3px 3px #434343b4
+    .closed
+        color: red
+.hours-container-outer
+    background-color: white !important
+    padding: 8px
+    border: 2px solid #666666
