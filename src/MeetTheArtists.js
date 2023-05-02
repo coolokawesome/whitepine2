@@ -8,37 +8,45 @@ function MeetTheArtists() {
     <div className='artists-container bg-dark text-light'>
         <div className='container'>
             <h2 className='text-center display-3'>Meet the Artists</h2>
-            <div className='row d-flex align-content-center flex-wrap'>
-            <div class="col-12 col-md-6">
-                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src={Anne1} class="d-block h-50 img mx-auto"/>
-                        </div>
-                        <div class="carousel-item">
-                            <img src={Anne2} class="d-block h-50 img mx-auto"/>
-                        </div>
-                        <div class="carousel-item">
-                            <img src={Anne3} class="d-block h-50 img mx-auto"/>
-                        </div>
+            <div className='row d-flex align-content-center flex-wrap my-5'>
+                <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end pe-0 pe-md-5">
+                    <img src={Anne1} className='meet-the-artists-img'></img>
+                </div>
+                <div className='col-12 col-md-6 d-flex align-items-center'>
+                    <div className=''>
+                    <div>
+                    <h3 class="text-light text-center text-md-start display-5 ">Anna</h3>
+                    <p className='text py-2'>
+                        Anna has been tattooing since she was young, starting in 2007. She holds honours certified in medical aesthetics and understands skin inside out. Her favourite things to do are illustrative realism animals, florals and portraits and ornamental designs in large scale. 
+                    </p>
+                    <p className='text py-2'> 
+                        Her hobbies and past times include raising her twins, drawing, campfires, fishing, camping and boating. Anna is passionate about creating art that celebrates nature and the world we live in, and this passion is evident in all of her work.</p>
+                    <div className='socials-container d-flex justify-content-center justify-content-md-start'>
+                        <a  className='me-2 social-link'><i class="fa-xl fa-brands fa-instagram"></i></a>
+                        <a className='mx-2 a-link'>SEE PORTFOLIO {'>'}</a>
                     </div>
-                    <button class="carousel-control-prev" type="button"
-                        data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button"
-                        data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+                    </div>
                     </div>
                 </div>
-                <div className='col-12 col-md-6'>
-                    <h3 class="text-light text-center text-md-start display-5 ">Anna</h3>
-                    <p>Anna has been tattooing since she was young, starting in 2007. She holds honours certified in medical aesthetics and understands skin inside out. Her favourite things to do are illustrative realism animals, florals and portraits and ornamental designs in large scale. Scroll down to view some examples of her work. Her hobbies and past times include raising her twins, drawing, campfires, fishing, camping, boating.</p>
-                    <div className='socials-container'>
+            </div>
+            <div className='row d-flex align-content-center flex-wrap my-5'>
+                <div class="col-12 col-md-6 d-flex justify-content-center justify-content-md-start order-last ps-0 ps-md-5">
+                    <img src={Anne1} className='meet-the-artists-img'></img>
+                </div>
+                <div className='col-12 col-md-6 d-flex align-items-center'>
+                    <div className=''>
+                    <div>
+                    <h3 class="text-light text-center text-md-end display-5 ">Jeff</h3>
+                    <p className='text text-center text-md-end'>
+                        Anna has been tattooing since she was young, starting in 2007. She holds honours certified in medical aesthetics and understands skin inside out. Her favourite things to do are illustrative realism animals, florals and portraits and ornamental designs in large scale. 
+                    </p>
+                    <p className='text text-center text-md-end'> 
+                        Her hobbies and past times include raising her twins, drawing, campfires, fishing, camping and boating. Anna is passionate about creating art that celebrates nature and the world we live in, and this passion is evident in all of her work.</p>
+                    <div className='socials-container d-flex justify-content-cecnter justify-content-md-end'>
                         <a  className='social-link'><i class="fa-xl fa-brands fa-instagram"></i></a>
+                        <a className='ms-2'>SEE PORTFOLIO {'>'}</a>
+                    </div>
+                    </div>
                     </div>
                 </div>
             </div>

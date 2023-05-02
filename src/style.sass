@@ -90,13 +90,29 @@ button
     border: 1px solid white
     transition-duration: 0.2s
 .social-link
+    transform: scale(1.2)
     i
         transition-duration: 0.2s
         color: white
         &:hover
             
             transform: translateY(-2px)
-            cursor: pointer
+            cursor: pointer !important
+
 .navbar
     transition-delay: 0.6s !important
     transition-duration: 0.5s !important
+.meet-the-artists-img
+    max-height: 60vh
+    filter: saturate(20%)
+.text
+    font-size: large
+.lead-text
+    font-size: x-large
+.a-link
+    color: $green
+    text-decoration: none
+    &:hover
+        transition-duration: 0.2s
+        transform: translateY(-1px)
+        cursor: pointer
