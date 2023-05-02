@@ -83,6 +83,26 @@ button
         border: 1px solid white !important
         color: white !important
         transform: translateY(1px) !important
+.btn-faq
+    background-color: #00000000
+    color: white
+    border: 1px solid white
+    transition-duration: 0.2s
+    font-size: x-large
+    padding-left: 30px
+    padding-right: 30px
+    &:hover
+        background-color: white
+        color: black
+        border: 1px solid black
+        transition-duration: 0.2s
+    &:active
+        transform: translateY(1px)
+        background-color: $greenActive
+        color: white
+        border: 1px solid white
+        transition-duration: 0.2s
+
 
 .btn-secondary:hover 
     background-color: rgb(255, 255, 255)
@@ -105,8 +125,7 @@ button
 .meet-the-artists-img
     max-height: 60vh
     filter: saturate(20%)
-.text
-    font-size: large
+
 .lead-text
     font-size: x-large
 .a-link
@@ -116,3 +135,19 @@ button
         transition-duration: 0.2s
         transform: translateY(-1px)
         cursor: pointer
+.contact-container
+    background-image: url('./imgs/conact.png')
+    background-repeat: no-repeat
+    background-size: cover
+    min-height: 80vh
+.img-frame
+    background-color: white
+    border: 3px solid #232323a3
+.meet-the-artists-img
+    box-shadow: 2px 2px 6px #000000
+.contact-outer-frame
+    border: 3px solid rgb(164, 164, 164)
+    background-color: #66666600
+    padding: 0px
+.contact-inner-frame
+    box-shadow: 3px 3px 9px #2d2d2d93
