@@ -30,9 +30,6 @@ function App() {
                 <Link to="/galleries" className="nav-link">Galleries</Link>
               </Nav.Item>
               <Nav.Item>
-                <Link to="/artists" className="nav-link">Artists</Link>
-              </Nav.Item>
-              <Nav.Item>
                 <Link to="/contact" className="nav-link">Contact</Link>
               </Nav.Item>
               <Nav.Item>

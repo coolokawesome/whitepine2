@@ -1,8 +1,9 @@
 import React from 'react'
-
+import NavigationItemHeader from './NavigationItemHeader'
+import NavigationHeaderImg from './imgs/banner.webp'
 function Artists() {
   return (
-    <div>Artists</div>
+    <NavigationItemHeader img={NavigationHeaderImg} />
   )
 }
 
