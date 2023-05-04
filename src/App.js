@@ -24,7 +24,7 @@ function App() {
           <Navbar.Collapse id="navbarNav">
             <Nav className="ms-auto me-3">
               <Nav.Item>
-                <Link to="/home" className="nav-link">Home</Link>
+                <Link to="/" className="nav-link">Home</Link>
               </Nav.Item>
               <Nav.Item>
                 <Link to="/galleries" className="nav-link">Galleries</Link>
@@ -42,7 +42,7 @@ function App() {
           </Navbar.Collapse>
         </Navbar>
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/galleries" element={<Galleries />} />
           <Route path="/artists" element={<Artists />} />
           <Route path="/contact" element={<Contact />} />
