@@ -272,7 +272,12 @@ border: 3px solid black
   transition-duration: 0.2s;
   transform: translateY(-2px)
 }
-
+.footer-creator-text {
+  font-size: smaller;
+  color: rgb(85, 63, 63)
+} 
+.footer-creator-text a{
+} 
 @keyframes fade-in {
   from {
     opacity: 0;

@@ -15,7 +15,7 @@ function Location() {
         </div>
           <div className='col-12 col-lg-6 d-flex justify-content-center align-items-center my-5 my-lg-0'>
           <div className='my-2 my-lg-5'>
-          <h4 className='text-light mb-4'> 309 King St., Midland, ON</h4>
+          <h4 className='text-light mb-4'> 309 King St, Midland, ON</h4>
           <div className='hours-container-outer'>
           <div className='hours-container '>
             <h4 className='text-center pb-4'>Days:</h4>

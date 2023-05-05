@@ -6,8 +6,8 @@ function Footer() {
 
 
   return (
-    <div className='footer-container'>
-        <div className='container'>
+    <div className='footer-container '>
+        <div className='container '>
             <div className='row '>
                 <div className='col-12 col-lg-4 pb-3'>
                     <img src={WordMark} className='img img-fluid '></img>
@@ -31,11 +31,11 @@ function Footer() {
                     </div>
                 </div>  
                 <div className='col-12 col-lg-3 py-3 d-flex align-items-center'>
-                <p className='text-light'>White Pine Tattoo, the 5-star rated tattoo shop in Midland, ON. Book your consultation today and let us make your tattoo dreams a reality.</p>    
+                <p className='text-light container text-center text-lg-start '>White Pine Tattoo, the 5-star rated tattoo shop in Midland, ON. Book your consultation today and let us make your tattoo dreams a reality.</p>    
                 </div>
             </div>
-            <div className='my-2'>
-                <p className='text-light text-center'> Site Created by <a target='_blank' className='link-success text-decoration-none' href='https://syrussamson.ca'>syrussamson.ca</a></p>
+            <div className='my-2 footer-creator-text'>
+                <p className='text-light text-center '>Created by <a target='_blank' className='link-success text-decoration-none' href='https://syrussamson.ca'>syrussamson.ca</a></p>
             </div>
         </div>
     </div>
