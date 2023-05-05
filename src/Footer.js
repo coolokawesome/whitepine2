@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import WordMark from './imgs/WPTI_Wordmark_White.png'
+import PDF from './etc/aftercare.pdf'
 function Footer() {
 
 
@@ -15,6 +16,7 @@ function Footer() {
                     <Link className='link-light mx-2 text-decoration-none' to='/contact'>Contact</Link>
                     <Link className='link-light mx-2 text-decoration-none' to='/faq'>FAQ</Link>
                     <Link className='link-light mx-2 text-decoration-none' to='/ourstory'>Our Story</Link>
+                    <Link className='link-light mx-2 text-decoration-none'  to={PDF} target='_blank'>Aftercare </Link>
                     </div>
                     <p className=' text-center text-secondary my-1'>White Pine Tattoo © 2023</p>
                 </div>

@@ -3,12 +3,22 @@ import NavigationItemHeader from './NavigationItemHeader'
 import NavigationHeaderImg from './imgs/banner.webp'
 import Footer from './Footer'
 import ContactHome from './ContactHome'
+import PDF from './etc/aftercare.pdf'
 function FAQ() {
   return (
     <>
     <NavigationItemHeader img={NavigationHeaderImg} name={'Frequently Asked Questions'} />
     
     <section class="container faq-container mt-4">
+        <div className='row'>
+        <div className='col-12 col-lg-4 text-center'>
+            <a target="_blank"
+                href={PDF}
+                class="text-decoration-none link-light ">
+                <h5 class="aftercare-link link-light">View Our Aftercare PDF →</h5>
+            </a>
+        </div>
+        </div>
         <div class="row">
             <div class="col-0 col-md-4 col-sm-hidden mb-5">
                 <nav id="navbar"
