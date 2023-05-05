@@ -10,7 +10,7 @@ function MeetTheArtists() {
             <div className='row d-flex align-content-center flex-wrap my-5'>
                 <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-end pe-0 pe-lg-5">
                     <div className='p-2 img-frame'>
-                    <img src={Anne1} className=' meet-the-artists-img img img-fluid'></img>
+                    <img src={Anne1} className=' meet-the-artists-img img img-fluid' loading="lazy"></img>
                     </div>
                 </div>
                 <div className='col-12 col-lg-6 col-xl-5 d-flex align-items-center'>
@@ -36,7 +36,7 @@ function MeetTheArtists() {
                 <div class="col-12 col-lg-6 col-xl-5 d-flex justify-content-center justify-content-lg-start order-first order-lg-last ps-0 ps-lg-5">
                 <div>
                 <div className='p-2 img-frame'>
-                    <img src={Jeff1} className=' meet-the-artists-img'></img>
+                    <img src={Jeff1} className=' meet-the-artists-img' loading="lazy" ></img>
                 </div>
                 </div>
                 </div>

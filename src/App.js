@@ -17,8 +17,10 @@ function App() {
     <div className='wrapper' onScroll={() => setScrolled(true)}> 
     <BrowserRouter >
         <Navbar   expand="lg" variant="dark" sticky="top" className={` navbar ${scrolled ? 'bg-dark border-bottom' : 'bg-clear'}`}>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand >
+            <Link to='/'>
             <img className="navbar-brand img img-fluid ms-3" src={brandLogo} />
+            </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarNav" />
           <Navbar.Collapse id="navbarNav">

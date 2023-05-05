@@ -42,7 +42,7 @@ function OurStory() {
                 </div>
                 <div class="col-12 col-md-6 p-2 img-fluid img story-img-frame">
                     
-                    <img className="story-img img border" src={img}/>
+                    <img className="story-img img border" src={img} loading="lazy"/>
       
                 </div>
             </div>
