@@ -242,6 +242,7 @@ border: 3px solid black
   animation-name: fade-in;
   animation-duration: 1s;
   animation-fill-mode: forwards;
+
 }
 .gallery-img {
   height: 100%;

@@ -63,7 +63,7 @@ function Galleries() {
       <div className='row my-4'>
         {
           imgs.map((img, index) => (
-            <div key={index} className='col-6 col-md-4 col-lg-3 gallery-img-container my-2'  >
+            <div key={index} className='col-12 col-md-6 col-lg-4 col-xl-3 gallery-img-container my-2'  >
                 <img className='img img-fluid gallery-img' src={require(`${img}`)} style={{ animationDelay:`${index * 0.1}s`}} loading="lazy" ></img>
             </div>
           ))
