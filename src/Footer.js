@@ -6,17 +6,21 @@ function Footer() {
 
 
   return (
-    <div className='footer-container '>
+    <div className='footer-container border-top '>
         <div className='container '>
             <div className='row '>
                 <div className='col-12 col-lg-4 pb-3'>
                     <img src={WordMark} className='img img-fluid '></img>
                     <div className='text-center'>
-                    <Link className='link-light mx-2 text-decoration-none' to='/galleries'>Galleries </Link>
-                    <Link className='link-light mx-2 text-decoration-none' to='/contact'>Contact</Link>
-                    <Link className='link-light mx-2 text-decoration-none' to='/faq'>FAQ</Link>
-                    <Link className='link-light mx-2 text-decoration-none' to='/ourstory'>Our Story</Link>
-                    <Link className='link-light mx-2 text-decoration-none'  to={PDF} target='_blank'>Aftercare </Link>
+                    <Link className='link-light mx-2 text-decoration-none' to='/galleries'><u>Galleries</u> </Link>
+                    <Link className='link-light mx-2 text-decoration-none' to='/contact'><u>Contact</u></Link>
+                    <Link className='link-light mx-2 text-decoration-none' to='/faq'><u>FAQ</u></Link>
+                    <Link className='link-light mx-2 text-decoration-none' to='/ourstory'><u>Our Story</u></Link>
+                    <Link className='link-light mx-2 text-decoration-none'  to={PDF} target='_blank'><u>Aftercare</u> </Link>
+                    <Link className='link-light mx-2 text-decoration-none'  to='/privacy'><u>Privacy</u>
+                    </Link>
+                    <Link className='link-light mx-2 text-decoration-none'  to='/terms-conditions'><u>Terms & Conditions</u>
+                    </Link>
                     </div>
                     <p className=' text-center text-secondary my-1'>White Pine Tattoo © 2023</p>
                 </div>

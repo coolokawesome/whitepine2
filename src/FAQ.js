@@ -24,6 +24,7 @@ function FAQ() {
                 <nav id="navbar"
                     class="h-70 overflow-y-scroll flex-column align-items-stretch faq-selection">
                     <nav class="nav nav-pills flex-column">
+                        <a class="faq-link nav-link link-light" href="#item-0">Do you do piercings?</a>
                         <a class="faq-link nav-link link-light" href="#item-1">How can I book an appointment?</a>
                         <a class="faq-link nav-link link-light" href="#item-2">Can I see my design before my
                             appointent?</a>
@@ -56,6 +57,11 @@ function FAQ() {
             <div class="col-12 col-md-8 mb-5">
                 <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-smooth-scroll="true"
                     class="scrollspy-example-2 bg-dark" tabindex="0">
+                    <div id="item-0">
+                        <h4 class="faq-title">Do you do piercings?</h4>
+                        <p>No, we do not!
+                        </p>
+                    </div>
                     <div id="item-1">
                         <h4 class="faq-title">How can I book an appointment?</h4>
                         <p>You can email our assistant with your information, please ensure you include a few reference

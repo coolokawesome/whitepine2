@@ -9,6 +9,8 @@ import FAQ from './FAQ';
 import OurStory from './OurStory';
 import Splash from './Splash';
 import brandLogo from './imgs/WPTI_Icon_White.png';
+import Privacy from './Privacy';
+import Terms from './Terms';
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -16,7 +18,7 @@ function App() {
   return (
     <div className='wrapper' onScroll={() => setScrolled(true)}> 
     <BrowserRouter >
-        <Navbar   expand="lg" variant="dark" sticky="top" className={` navbar ${scrolled ? 'bg-dark border-bottom' : 'bg-clear'}`}>
+        <Navbar   expand="md" variant="dark" sticky="top" className={` navbar ${scrolled ? 'bg-dark border-bottom' : 'bg-clear'}`}>
           <Navbar.Brand >
             <Link to='/'>
             <img className="navbar-brand img img-fluid ms-3" src={brandLogo} />
@@ -50,6 +52,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/ourstory" element={<OurStory />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/terms-conditions" element={<Terms />} />
         </Routes>
     </BrowserRouter>
     </div>

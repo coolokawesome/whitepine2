@@ -4,7 +4,7 @@ import background from './imgs/conact.png'
 
 function Location() {
   return (
-    <div className='location-container d-flex align-items-center my-5' style={{backgroundImage: `url(${background})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
+    <div className='location-container d-flex align-items-center mt-5' style={{backgroundImage: `url(${background})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
       <img className='background-location-img img img-fluid' loading="lazy" ></img>
       <div className='container inner-location-container'>
           <div className='row d-flex align-items-center'>
