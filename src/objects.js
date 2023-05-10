@@ -14,6 +14,12 @@ const Jeff = [
     './imgs/jeff/jeff3.png',
     './imgs/jeff/jeff4.png',
     './imgs/jeff/jeff5.jpg',
+    './imgs/jeff/jeff6.jpg',
+    './imgs/jeff/jeff7.jpg',
+    './imgs/jeff/jeff8.jpg',
+    './imgs/jeff/jeff9.jpg',
+    './imgs/jeff/jeff10.jpg',
+
 ]
 
 const All = [
@@ -29,6 +35,11 @@ const All = [
     './imgs/jeff/jeff4.png',
     './imgs/jeff/jeff5.jpg',
     './imgs/anne/anne7.jpg',
+    './imgs/jeff/jeff6.jpg',
+    './imgs/jeff/jeff7.jpg',
+    './imgs/jeff/jeff8.jpg',
+    './imgs/jeff/jeff9.jpg',
+    './imgs/jeff/jeff10.jpg',
 ]
 
 
