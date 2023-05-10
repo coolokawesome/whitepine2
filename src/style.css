@@ -201,13 +201,16 @@
   
   .footer-icon {
     color: #212529;
-    background-color: white;
-    padding: 8px;
+    background-color: rgb(210, 210, 210);
+    padding: 18px;
     border: 1px solid white;
-    border-radius: 50px; }
+    border-radius: 50px; 
+    transform: scale(0.8);}
   
   .fa-envelope {
-    padding: 5px; }
+    padding: 16px;
+    transform: scale(0.8);
+  }
   
 .navigation-item-header-container {
     height: 25vh

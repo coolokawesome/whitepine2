@@ -26,12 +26,17 @@ function Footer() {
                 </div>
                 <div className='col-12 col-lg-4 offset-0 offset-lg-1 py-3 d-flex align-items-center justify-content-center justify-content-lg-start'>
                     <div className='row '>
-                        <div className='d-flex justify-content-center align-items-center justify-content-lg-start text-light mb-3'>
-                        <i class="fa-xl pt-3 pb-3 me-3 footer-icon fa-sharp fa-solid fa-location-dot"></i>309 King St., Midland, ON
+                    <div className='d-flex justify-content-center align-items-center justify-content-lg-start text-light mb-1'>
+                        <i class="fa-md pt-3 pb-3 me-3 footer-icon fa-brands fa-instagram"></i>
+                        <Link to='https://www.instagram.com/whitepinetattoos/' target='_blank' className='text-light'>@whitepinetattoos</Link>
                         </div>
-                        <div className='d-flex justify-content-center align-items-center justify-content-lg-start text-light'>
-                        <i class="fa-xl pt-3 pb-3 me-3 footer-icon fa-solid fa-envelope"></i>whitepinetattoos@gmail.com
+                        <div className='d-flex justify-content-center align-items-center justify-content-lg-start text-light mb-1'>
+                        <i class="fa-md pt-3 pb-3 me-3 footer-icon fa-sharp fa-solid fa-location-dot"></i>309 King St., Midland, ON
                         </div>
+                        <div className='d-flex justify-content-center align-items-center justify-content-lg-start text-light mb-1'>
+                        <i class="fa-md pt-3 pb-3 me-3 footer-icon fa-solid fa-envelope"></i>whitepinetattoos@gmail.com
+                        </div>
+                        
                     </div>
                 </div>  
                 <div className='col-12 col-lg-3 py-3 d-flex align-items-center'>
