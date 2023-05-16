@@ -40,7 +40,7 @@ function MeetTheArtists() {
                 </div>
                 </div>
                 </div>
-                <div className='col-12 col-lg-6 col-xl-5 ofset-0 offset-xl-1 1d-flex align-items-center'>
+                <div className='col-12 col-lg-6 col-xl-5 ofset-0 offset-xl-1 d-flex align-items-center'>
                     <div className=''>
                     <div>
                     <h3 class="text-light text-center text-lg-end display-5 ">Jeff</h3>
