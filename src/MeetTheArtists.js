@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 import Anne1 from './imgs/anne/anne1.jpg'
 import Jeff1 from './imgs/jeff/jeff3.png'
@@ -10,8 +9,8 @@ function MeetTheArtists() {
             <h2 className='text-center display-3 border-bottom'>Meet the Artists</h2>
             <div className='row d-flex align-content-center flex-wrap my-5'>
                 <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-end pe-0 pe-lg-5">
-                    <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}} className='p-2 img-frame'>
-                    <img src={Anne1}  className=' meet-the-artists-img img img-fluid' loading="lazy" />
+                    <div className='p-2 img-frame'>
+                    <img src={Anne1} className=' meet-the-artists-img img img-fluid' loading="lazy"></img>
                     </div>
                 </div>
                 <div className='col-12 col-lg-6 col-xl-5 d-flex align-items-center'>
@@ -20,22 +19,10 @@ function MeetTheArtists() {
                     <h3 class="text-light text-center text-lg-start display-5 px-5 px-lg-0 pe-lg-5 ">Anna</h3>
                     <div className='text-box p-1'>
                     <p className='text py-2'>
-
-                    Anna has been a tattoo artist of 17+ years in the industry. She has done conventions in Toronto, worked alongside with many award-winning artists and beautiful shops. 
-
-                    Along the way; she has taken what she has loved, and also learned that some things are best left in the past in terms of tattooing.
-
-                    Anna’s work differs as every year offers growth and evolution, and is pleased to offer to do a bit of every style of tattooing depending on the subject matter. 
-                    Her preference is black and grey, floral; illustrative and traditional color tattoos. 
-
-                    Anna offers a spiritual approach to tattooing and encourages a relaxing experience with getting tattooed, and encourages it to be “therapeutic discomfort” as coined by her friend and manager. 
-
-                    Tattoos are ceremonial and they should be honoured in your skin in a collaborative and interactive effort from both of us. As an artist first, I work specializing in large-scale to ensure the preliminary design is perfect and suited to your body. 
-
-                    Feel free to let Anna guide you through this very personal individual tattoo experience and ensure you are as comfortable as possible. 
+                        Anna has been tattooing since she was young, starting in 2007. She holds honours certified in medical aesthetics and understands skin inside out. Her favourite things to do are illustrative realism animals, florals and portraits and ornamental designs in large scale. 
                     </p>
-                    {/* <p className='text py-2'> 
-                        Her hobbies and past times include raising her twins, drawing, campfires, fishing, camping and boating. Anna is passionate about creating art that celebrates nature and the world we live in, and this passion is evident in all of her work.</p> */}
+                    <p className='text py-2'> 
+                        Her hobbies and past times include raising her twins, drawing, campfires, fishing, camping and boating. Anna is passionate about creating art that celebrates nature and the world we live in, and this passion is evident in all of her work.</p>
                     </div>
                     <div className='socials-container d-flex justify-content-center justify-content-lg-start'>
                         <Link target='_blank' to='https://instagram.com/rabbitmoontattoos_' className='me-2 social-link'><i class="fa-xl fa-brands fa-instagram"></i></Link>

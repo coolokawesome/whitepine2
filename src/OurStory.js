@@ -19,22 +19,30 @@ function OurStory() {
                         creating a community hub for tattoo enthusiasts, where clients can relax and connect with others
                         who share their love of tattoos.
                     </p>
+                    <br />
                     <p className='text-light'>
-                        Anna Shepherd is one of the resident tattoo artists at the shop, with over 14 years of
-                        experience in the industry. Anna began tattooing at a young age, and has since honed her skills
-                        to become a master at illustrative realism animals, florals, and portraits, as well as
-                        ornamental designs in large scale. Her deep understanding of the skin and medical aesthetics, in
-                        addition to her artistic abilities, make her one of the most sought-after tattoo artists in the
-                        area. When Anna is not in the shop creating beautiful works of art, she loves to spend time
-                        raising her twins, drawing, camping, fishing, and boating.
+                    Anna has been a tattoo artist of 17+ years in the industry. She has done conventions in Toronto, worked alongside with many award-winning artists and beautiful shops. 
+                    <br />
+                    Along the way; she has taken what she has loved, and also learned that some things are best left in the past in terms of tattooing.
+                    <br />
+                    Anna’s work differs as every year offers growth and evolution, and is pleased to offer to do a bit of every style of tattooing depending on the subject matter. 
+                    Her preference is black and grey, floral; illustrative and traditional color tattoos. 
+                    <br />
+                    Anna offers a spiritual approach to tattooing and encourages a relaxing experience with getting tattooed, and encourages it to be “therapeutic discomfort” as coined by her friend and manager. 
+                    <br />
+                    Tattoos are ceremonial and they should be honoured in your skin in a collaborative and interactive effort from both of us. As an artist first, I work specializing in large-scale to ensure the preliminary design is perfect and suited to your body. 
+                    <br />
+                    Feel free to let Anna guide you through this very personal individual tattoo experience and ensure you are as comfortable as possible. 
                     </p>
-                    <p className='text-light'>
-                        Jeff Shepherd, originally an illustrator of fine-line black ink illustrations, brings a unique
-                        artistic style to the tattoo shop. Jeff has been exploring different mediums such as gouache,
-                        acrylics, oil paints, and large scale abstract mixed media. With just over a year of experience
-                        in tattooing, Jeff has trained under Anna and specializes in illustrative blackwork and smooth
-                        soft shaded black and grey medium-sized pieces. When Jeff is not tattooing, he enjoys spending
-                        time with his kids and family, attending concerts, and indulging in video games and anime.
+                    <br />
+                    <p className='text-light' style={{initialLetter: '5em'}}>
+                    Jeff has been an artist his entire life, but has honed and sharped his skills in drawing, illustrating and is now pushing tattooing to a new style and bringing a new feeling to the local tattoo scene. 
+                    <br />
+                    Jeff’s strengths include illustrative, loose interpretation, black and grey, sometimes mixing one other color (monochromatic) for added effect. 
+                    <br />
+                    Jeff has a gentle touch with tattooing, while also making bold choices with his artistic interpretation. He has a profound love for animals, especially dogs. 
+                    <br />
+                    Jeff loves camping; the outdoors and spending time his family. In the summer he enjoys being out on the water and the beach with his kids and their senior dog Leon. 
                     </p>
                     <div class="mb-3">
                         <Link class="a-link" to="/galleries">VIEW THE GALLERIES {'>'}</Link>

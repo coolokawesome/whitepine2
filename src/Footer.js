@@ -31,7 +31,7 @@ function Footer() {
                         <Link to='https://www.instagram.com/whitepinetattoos/' target='_blank' className='text-light'>@whitepinetattoos</Link>
                         </div>
                         <div className='d-flex justify-content-center align-items-center justify-content-lg-start text-light mb-1'>
-                        <i class="fa-md pt-3 pb-3 me-3 footer-icon fa-sharp fa-solid fa-location-dot"></i>309 King St., Midland, ON
+                        <i class="fa-md pt-3 pb-3 me-3 footer-icon fa-sharp fa-solid fa-location-dot"></i>264 First St #2, Midland, ON
                         </div>
                         <div className='d-flex justify-content-center align-items-center justify-content-lg-start text-light mb-1'>
                         <i class="fa-md pt-3 pb-3 me-3 footer-icon fa-solid fa-envelope"></i>whitepinetattoos@gmail.com
