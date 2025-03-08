@@ -6,7 +6,7 @@ function ContactHome() {
     const [noReRender, setNoReRender] = useState(false)
 
     const handleModal = () => {
-        if (noReRender == false) {
+        if (noReRender === false) {
             setNoReRender(true)
             setModal(true)
         }
@@ -49,7 +49,7 @@ function ContactHome() {
         </div>
         {/* modal */}
     {
-        modal == true ?         
+        modal === true ?         
         <Modal show={handleModal} onHide={handleClose} size='lg'>
         <Modal.Header closeButton >
           <Modal.Title><h1 >Appointment Policies</h1></Modal.Title>
