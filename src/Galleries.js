@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import NavigationItemHeader from './NavigationItemHeader'
 import NavigationHeaderImg from './imgs/banner.webp'
 import Footer from './Footer'
-import {Jeff, Anna, All} from './objects'
+import {Jeff, Anna} from './objects'
 
 
 function Galleries() {
@@ -16,23 +16,25 @@ function Galleries() {
   useEffect(() => {
     
     let newArray = []
-    if(selected == 'Anna') {
+    if(selected === 'Anna') {
       Anna.forEach((img) => {
         newArray.push(img)
       })
       setImgs(newArray)
     }
-    if(selected == 'Jeff') {
+    if(selected === 'Jeff') {
       Jeff.forEach((img) => {
         newArray.push(img)
       })
       setImgs(newArray)
     }
-    if(selected == 'All') {
-      All.forEach((img) => {
-        newArray.push(img)
-      })
-      setImgs(newArray)
+    if(selected === 'All') {
+      console.log([...Anna, ...Jeff].map((item) => ({item, sort: Math.random() })))
+      setImgs(
+        [...Anna, ...Jeff].map((item) => ({item, sort: Math.random() }))
+        .sort((a, b) => a.sort - b.sort)
+        .map(({item}) => item)
+    )
     }
   }, [selected])
 

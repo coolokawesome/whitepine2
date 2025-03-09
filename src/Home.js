@@ -7,11 +7,13 @@ import Location from './Location'
 import Footer
 
 from './Footer'
+import MissionStatement from './MissionStatement'
 function Home() {
   return (
     <>
     <Splash />
     <MeetTheArtists />
+    <MissionStatement />
     <ContactHome />
     <FAQHome />
     <Location />

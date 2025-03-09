@@ -40,7 +40,8 @@ function Footer() {
                     </div>
                 </div>  
                 <div className='col-12 col-lg-3 py-3 d-flex align-items-center'>
-                <p className='text-light container text-center text-lg-start '>White Pine Tattoo, the 5-star rated tattoo shop in Midland, ON. Book your consultation today and let us make your tattoo dreams a reality.</p>    
+                    
+                <p className='text-light container text-center text-lg-start '>White Pine Tattoo, the 5-star rated tattoo shop in Midland, ON. Book your appointment today and let us make your tattoo dreams a reality.</p>    
                 </div>
             </div>
             <div className='my-2 footer-creator-text'>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Anne1 from './imgs/anne/anne1.jpg'
 import Jeff1 from './imgs/jeff/jeff3.png'
+import JeffFace from './imgs/jeff/Jeffface.JPG'
 import { Link } from 'react-router-dom'
 function MeetTheArtists() {
   return (
@@ -36,7 +37,7 @@ function MeetTheArtists() {
                 <div class="col-12 col-lg-6 col-xl-5 d-flex justify-content-center justify-content-lg-start order-first order-lg-last ps-0 ps-lg-5">
                 <div>
                 <div className='p-2 img-frame'>
-                    <img src={Jeff1} className=' meet-the-artists-img' loading="lazy" ></img>
+                    <img src={JeffFace} className=' meet-the-artists-img' loading="lazy" ></img>
                 </div>
                 </div>
                 </div>

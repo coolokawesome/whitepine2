@@ -15,7 +15,7 @@ function OurStory() {
                 <div class="col-12 col-md-6">
                     <p className='text-light'>
                         Anna and Jeff Shepherd are the happily married couple who founded our friendly, atmospheric
-                        tattoo shop located in the charming town of Tiny, Ontario. They have followed their dreams of
+                        tattoo shop located in the charming town of Midland, Ontario. They have followed their dreams of
                         creating a community hub for tattoo enthusiasts, where clients can relax and connect with others
                         who share their love of tattoos.
                     </p>
