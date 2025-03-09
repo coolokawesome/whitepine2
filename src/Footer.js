@@ -22,7 +22,7 @@ function Footer() {
                     <Link className='link-light mx-2 text-decoration-none'  to='/terms-conditions'><u>Terms & Conditions</u>
                     </Link>
                     </div>
-                    <p className=' text-center text-secondary my-1'>White Pine Tattoo © 2023</p>
+                    <p className=' text-center text-secondary my-1'>White Pine Tattoo © 2025</p>
                 </div>
                 <div className='col-12 col-lg-4 offset-0 offset-lg-1 py-3 d-flex align-items-center justify-content-center justify-content-lg-start'>
                     <div className='row '>
