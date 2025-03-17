@@ -10,8 +10,8 @@ function Galleries() {
   const [selected, setSelected] = useState('All')
   const [imgs, setImgs] = useState([])
 
-  const handleSelected = (e) => {
-    setSelected(e.target.value)
+  const handleSelected = (param) => {
+    setSelected(param)
   }
   useEffect(() => {
     
@@ -51,13 +51,16 @@ function Galleries() {
         <h5 className='text-light display-6'>{selected}</h5>
     </div>
       </div>
-    <div className='col-4 d-flex justify-content-end'>
-      <p className='text-light me-2'> Artist:</p>
-      <select class='artist-selection' onChange={handleSelected} value={selected} name="gallery" id="gallery">
+    <div className='col-4 d-flex justify-content-end align-items-center'>
+      <p className='text-light m-2 align-items-center'> Artist:</p>
+       <button className={`btn px-4 mx-1  ${selected === "All" ? "btn-primary" : "btn-secondary"}`} onClick={() => handleSelected('All')}>All</button>
+      <button className={`btn px-4 mx-1 ${selected === "Anna" ? "btn-primary" : "btn-secondary"}`} onClick={() => handleSelected('Anna')}>Anna</button>
+      <button className={`btn px-4 mx-1 ${selected === "Jeff" ? "btn-primary" : "btn-secondary"}`} onClick={() => handleSelected('Jeff')}>Jeff</button>
+      {/* <select class='artist-selection' onChange={handleSelected} value={selected} name="gallery" id="gallery">
         <option value="Anna">Anna</option>
         <option value="Jeff">Jeff</option>
         <option value="All" defaultValue={'All'}>All</option>
-      </select>
+      </select> */}
     </div>
     </div>
     </div>
