@@ -40,16 +40,6 @@ const Anna = [
 ]
 
 const Jeff = [
-    './imgs/jeff/jeff1.png',
-    './imgs/jeff/jeff2.png',
-    './imgs/jeff/jeff3.png',
-    './imgs/jeff/jeff4.png',
-    './imgs/jeff/jeff5.jpg',
-    './imgs/jeff/jeff6.jpg',
-    './imgs/jeff/jeff7.jpg',
-    './imgs/jeff/jeff8.jpg',
-    './imgs/jeff/jeff9.jpg',
-    './imgs/jeff/jeff10.jpg',
     './imgs/jeff/jeff11.png',
     './imgs/jeff/jeff12.png',
     './imgs/jeff/jeff13.png',
@@ -67,8 +57,6 @@ const Jeff = [
     './imgs/jeff/jeff25.png',
     './imgs/jeff/jeff26.png',
     './imgs/jeff/jeff27.png',
-
-
 ]
 
 
