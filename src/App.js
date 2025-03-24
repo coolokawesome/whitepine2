@@ -10,6 +10,8 @@ import OurStory from './OurStory';
 import Splash from './Splash';
 import brandLogo from './imgs/WPTI_Icon_White.png';
 import Privacy from './Privacy';
+import Book from './Book';
+
 import Terms from './Terms';
 
 function App() {
@@ -54,6 +56,7 @@ function App() {
           <Route path="/ourstory" element={<OurStory />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/terms-conditions" element={<Terms />} />
+          <Route path="/book" element={<Book />} />
         </Routes>
     </BrowserRouter>
     </div>
