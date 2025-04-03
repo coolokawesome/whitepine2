@@ -43,27 +43,27 @@ function Location() {
                     <tbody>
                       <tr>
                         <td className="text-start">Monday:</td>
-                        <td className="text-end">Anna</td>
+                        <td className="text-end">10am - 6pm</td>
                       </tr>
                       <tr>
                         <td className="text-start">Tuesday:</td>
-                        <td className="text-end">Jeff</td>
+                        <td className="text-end">10am - 6pm</td>
                       </tr>
                       <tr>
                         <td className="text-start">Wednesday:</td>
-                        <td className="text-end">Anna</td>
+                        <td className="text-end">10am - 6pm</td>
                       </tr>
                       <tr>
                         <td className="text-start">Thursday:</td>
-                        <td className="text-end closed">Closed</td>
+                        <td className="text-end">10am - 6pm</td>
                       </tr>
                       <tr>
                         <td className="text-start">Friday:</td>
-                        <td className="text-end">Anna</td>
+                        <td className="text-end">10am - 6pm</td>
                       </tr>
                       <tr>
                         <td className="text-start">Saturday:</td>
-                        <td className="text-start closed">Closed</td>
+                        <td className="text-end">10am - 6pm</td>
                       </tr>
                       <tr>
                         <td className="text-start">Sunday:</td>

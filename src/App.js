@@ -16,9 +16,37 @@ import Terms from './Terms';
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
-
+  const [selectedImgIndex, setSelectedImgIndex] = useState(undefined);
+  const [imgs, setImgs] = useState([])
   return (
     <div className='wrapper' onScroll={() => setScrolled(true)}> 
+     {selectedImgIndex !== undefined && (
+          <div
+            style={{
+              position: "sticky",
+              top: 0,
+              width: "100vw",
+              height: "100vh",
+              background: "#000000aa",
+              zIndex: 1000000,
+            }}
+          >
+            <div
+              style={{
+                position: "absolute",
+                left: "50%",
+                top: "0%",
+                transform: "translate(-50%, 10vh)",
+              }}
+            >
+              <button style={{right: 0, top: 0, position: 'absolute', width: 40, height: 40}} className='border-0' onClick={() => setSelectedImgIndex(undefined)}>x</button>
+              <img
+                src={require(`${imgs[selectedImgIndex]}`)}
+                style={{ width: "auto", height: "80vh", padding: 10, background: 'white'}}
+              />
+            </div>
+          </div>
+        )}
     <BrowserRouter >
         <Navbar   expand="md" variant="dark" sticky="top" className={` navbar ${scrolled ? 'bg-dark border-bottom' : 'bg-clear'}`}>
           <Navbar.Brand >
@@ -49,7 +77,7 @@ function App() {
         </Navbar>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/galleries" element={<Galleries />} />
+          <Route path="/galleries" element={<Galleries imgs={imgs} setImgs={setImgs} selectedImgIndex={selectedImgIndex} setSelectedImgIndex={setSelectedImgIndex} />} />
           <Route path="/artists" element={<Artists />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/faq" element={<FAQ />} />
@@ -59,6 +87,7 @@ function App() {
           <Route path="/book" element={<Book />} />
         </Routes>
     </BrowserRouter>
+    
     </div>
   );
 }
