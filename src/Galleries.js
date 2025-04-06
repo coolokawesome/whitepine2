@@ -53,13 +53,13 @@ function Galleries({ setSelectedImgIndex, selectedImgIndex, imgs, setImgs }) {
       <NavigationItemHeader img={NavigationHeaderImg} name={"Galleries"} />
       <div className="container">
         <div className="row d-flex align-items-center mt-3">
-          <div className="col-4"></div>
-          <div className="col-4">
-            <div className="d-flex justify-content-center align-items-center">
+          <div className="col-0 col-md-4"></div>
+          <div className="col-6 col-md-4">
+            {/* <div className="d-flex justify-content-center align-items-center">
               <h5 className="text-light display-6">{selected}</h5>
-            </div>
+            </div> */}
           </div>
-          <div className="col-4 d-flex justify-content-end align-items-center">
+          <div className="col-6 col-md-4 d-flex justify-content-end align-items-center">
             <button
               className={`btn px-4 mx-1  ${
                 selected === "All" ? "btn-primary" : "btn-secondary"

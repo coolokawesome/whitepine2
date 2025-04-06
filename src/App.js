@@ -36,13 +36,13 @@ function App() {
                 position: "absolute",
                 left: "50%",
                 top: "0%",
-                transform: "translate(-50%, 10vh)",
+                transform: "translate(-50%, 5vh)",
               }}
             >
               <button style={{right: 0, top: 0, position: 'absolute', width: 40, height: 40}} className='border-0' onClick={() => setSelectedImgIndex(undefined)}>x</button>
               <img
                 src={require(`${imgs[selectedImgIndex]}`)}
-                style={{ width: "auto", height: "80vh", padding: 10, background: 'white'}}
+                style={{ height: "auto", maxWidth: '90vw', maxHeight: '90vh',  padding: 10, background: 'white'}}
               />
             </div>
           </div>
